@@ -10,7 +10,7 @@
   "preview": "vite preview",
   "storybook": "storybook dev -p 6006",
   "build-storybook": "storybook build",
-  "chromatic": "chromatic --project-token=chpt_62aef451a9e269c"
+  "chromatic": "chromatic --project-token=<your-token"
 },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.12",

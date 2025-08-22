@@ -4,13 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
-  },
+  "dev": "vite",
+  "build": "tsc -b && vite build",
+  "lint": "eslint .",
+  "preview": "vite preview",
+  "storybook": "storybook dev -p 6006",
+  "build-storybook": "storybook build",
+  "chromatic": "chromatic --project-token=chpt_62aef451a9e269c"
+},
   "dependencies": {
     "@tailwindcss/vite": "^4.1.12",
     "clsx": "^2.1.1",
